@@ -1,0 +1,343 @@
+/* common style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+    
+}
+
+.around{
+    justify-content: space-around;
+}
+
+
+.container {
+    padding: 25px 10%;
+}
+
+
+/* banner style */
+
+.banner {
+    height: 100vh;
+    width: 100vw;
+    background: url("https://images.unsplash.com/photo-1670811456186-e73d0ace9454?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80") no-repeat center;
+    
+    background-size: cover;
+
+}
+
+
+.nav-bar {
+    padding: 15px 25px;
+    border-radius: 5px;
+
+}
+
+.nav-bar>.logo {
+    width: 50px;
+}
+
+
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links>li {
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.nav-links>li>a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 20px;
+}
+
+
+
+.nav-bar>.icons-group{
+    color: #ffffff;
+}
+
+.nav-bar>.icons-group>.fa-brands{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.banner-text{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 400px;
+}
+.banner-text>h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+.banner-text>h1{
+    font-size: 80px;
+    font-weight: 300;
+}
+
+
+.card-section{
+    margin: 90px;
+    align-items: center;
+}
+.card-section>img{
+    width: 350px;
+    margin: 0 50px;
+}
+
+
+.card-section>.first-card{
+    margin: 0 20px;
+}
+.card-section>.first-card>h4{
+    font-size: 40px;
+    font-weight: 300;
+    margin: 10px 0;
+    color: #a19898d4;
+}
+.card-section>.first-card>p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.card-section>.first-card>img{
+    
+    margin: 20px 0;
+}
+
+
+
+.card-section>.second-card>img{
+    
+    margin: 10px 0;
+}
+.card-section>.second-card>h5{
+    font-size: 20px;
+    font-weight: 200;
+    color: #575555;
+    margin: 10px 0;
+}
+.card-section>.second-card>h4{
+    font-size: 21px;
+    font-weight: 400;
+    margin: 12px 0;
+}
+.card-section>.second-card>button{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 12px 23px;
+    cursor: pointer;
+    
+}
+.card-section>.second-card>button:hover{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 12px 23px;
+    background-color: #e81e1e00;
+    color: #000000;
+    
+}
+
+
+
+.gallery-img>img{
+    height: 600px;
+    width: 447px;
+}
+.second-section{
+    margin-bottom: 80px;
+}
+
+.second-section>h3{
+    font-size: 40px;
+    font-weight: 300;
+    margin: 50px 0;
+    color: #6e6a6a;
+}
+
+.first-container{
+    margin: 0 12px;
+}
+
+.first-container>img{
+    width: 350px;
+}
+.first-container>h3{
+    font-size: 40px;
+    font-weight: 300;
+    margin: 20px 0;
+    color: #6e6a6a;
+}
+
+.testimonia{
+    margin-bottom: 40px;
+}
+
+.testimonial{
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+.testimonial>img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonial>h2{
+    padding: 30px 40px;
+    font-size: 55px;
+    font-weight: 300;
+}
+.testimonial>p{
+    padding: 30px 40px;
+    font-size: 25px;
+}
+
+
+.content>h3{
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.photography{
+    border: 1px solid #575555;
+    text-align: center;
+    margin: 0 20px;
+    padding: 0 50px;
+
+}
+
+.photography>.btn{
+    text-align: center;
+}
+.photography>.btn>button{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 17px;
+    margin-top: 19px;
+    cursor: pointer;
+
+}
+.photography>.btn>h4{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.photography>p{
+    margin: 10px 0;
+}
+
+.photography>button{
+    font-size: 17px;
+    padding: 10px 39px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+.photography>button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.contentr{
+    margin-top: 100px;
+}
+
+.contentr>img{
+    width: 269px;
+    cursor: pointer;
+}
+
+
+
+
+.footer{
+    background-color: #000000;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.foote{
+    margin-bottom: 50px;
+}
+
+.foote>.logo{
+    width: 50px;
+}
+.foote>p{
+    color: #ffffff;
+    margin: 14px 0;
+}
+.icons-group>.fa-brands{
+    margin: 10px;
+    color: #ffffff;
+    
+}
+
+
+.navigation>h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.Submit>h2{
+    color: #ffffff;
+    padding: 20px 0;
+    font-weight: 300;
+
+}
+.Submit>input{
+    background-color: #575555;
+    color: #dfd8d8;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.Submit>p{
+    background: none;
+    color: #dfd8d8;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+    border: 2px solid #c8bebe;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.footer>p{
+    color: #dfd8d8;
+    text-align: center;
+    padding: 40px 0;
+}
